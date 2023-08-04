@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  background-attachment: fixed;
+}
+.body-div {
+  height: 100vh;
+  display: flex;
+}
+.side-bar {
+  flex: 1;
+  position: fixed;
+  background-color: black;
+  width: 20%;
+  height: 90%;
+}
+.hero {
+  flex: 4;
+}
+.music-player {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #181818;
+}
+.logo {
+  padding-top: 15px;
+  margin: 10px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.home > img {
+  width: 29.645px;
+  height: 32.116px;
+}
+.search > img {
+  width: 29.645px;
+  height: 29.645px;
+}
+.library > img {
+  width: 27.701px;
+  height: 28.41px;
+}
+.playlist-image {
+  height: 29px;
+  width: 29px;
+}
+.home>a{
+  text-decoration: none;
+}
+.liked-image {
+  width: 29px;
+  height: 29px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.liked-image > img {
+  width: 10.746px;
+  height: 10.746px;
+  border-radius: 1px;
+}
+.podcast-image {
+  width: 29px;
+  height: 29px;
+  border-radius: 5px;
+  background: #004638;
+}
+.fav-div {
+  list-style: none;
+  padding-left: 20px;
+}
+ul > li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.install {
+  font-size: 16px;
+  font-weight: 700;
+  margin-inline: 10px;
+  padding-inline: 10px;
+}
+.install > p {
+  margin: 0px;
+  padding-inline: 20px;
+}
+.install > img {
+  width: 29px;
+  height: 29px;
+}
+.home:hover {
+  border-radius: 6px;
+  background: #282828;
+}
+.hero {
+  margin-left: 20%;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrows {
+  display: flex;
+  margin-inline: 5px;
+}
+.left-arrow,
+.right-arrow {
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-inline: 5px;
+}
+.left-arrow > img,
+.right-arrow > img {
+  width: 18px;
+  height: 18px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 33px;
+  background: #0a0a0a;
+  width: 147px;
+  height: 41px;
+}
+.profile > p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Liked cards  */
+.favs {
+  width: 100%;
+}
+.favs > h2 {
+  margin-left: 5%;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.liked-div {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px 0px 0px 4px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.liked-div > img {
+  width: 23px;
+  height: 23px;
+}
+.liked-div-img > img {
+  width: 80px;
+  height: 80px;
+}
+.inner-liked-cards {
+  display: flex;
+  align-items: center;
+  width: 21rem;
+  height: 80px;
+  border-radius: 4px;
+  background: #303030;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+.inner-liked-cards > p {
+  padding-inline: 25px;
+  margin: 0px;
+}
+.cards-div {
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* cards  */
+
+.shows {
+  width: 90%;
+  margin-left: 5%;
+}
+.text {
+  align-items: center;
+  justify-content: space-between;
+}
+.text > h2 {
+  font-size: 29px;
+  font-weight: 600;
+}
+.text > p {
+  color: #b3b3b3;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card-div{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-inline: 20px;  */
+  /* padding-inline: 30px; */
+}
+.card-title{
+font-size: 21px;
+font-weight: 500;
+}
+.card-text{
+  color: #B3B3B3;
+font-size: 15px;
+font-weight: 500;
+}
+.card{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.footer{
+  margin-left: 20%;
+}
+.music-text>h2{
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.music-text>p{
+  color: #B3B3B3;
+font-size: 15px;
+font-weight: 600;
+}
+.music-heart{
+  width: 21px;
+  height: 24px;
+  bottom: 15px;
+}

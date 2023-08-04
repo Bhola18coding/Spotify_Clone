@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="body-div">
+      <!-- sidebar  -->
+      <div class="side-bar">
+        <div class="logo">
+          <img src="./Assets/Spotify logo.svg" />
+        </div>
+        <div class="home-div mt-4 mb-4">
+          <div class="home">
+            <img src="./Assets/home-logo.svg" />
+            <a href="playlist.html"><p class="home-text px-4 align-items-center m-0">Home</p></a>
+          </div>
+          <div class="home search">
+            <img src="./Assets/search-logo.svg" />
+            <p class="home-text px-4 align-items-center m-0">Search</p>
+          </div>
+          <div class="home library">
+            <img src="./Assets/library-logo.svg" />
+            <a href="playlist.html"><p class="home-text px-4 align-items-center m-0">Your Library</p></a>
+          </div>
+        </div>
+        <div class="playlist-div">
+          <div class="home playlist">
+            <div class="playlist-image d-flex bg-light">
+              <img src="./Assets/plus-logo.svg" />
+            </div>
+            <p class="home-text px-4 align-items-center m-0">Create Playlist</p>
+          </div>
+        </div>
+        <div class="home liked mt-2">
+          <div
+            class="liked-image d-flex align-items-center justify-content-center"
+          >
+            <img src="./Assets/heart-logo.svg" />
+          </div>
+          <a href="playlist.html"><p class="home-text px-4 align-items-center m-0">Liked Songs</p></a>
+        </div>
+        <div class="home podcast mt-2 mb-3">
+          <div
+            class="podcast-image d-flex align-items-center justify-content-center"
+          >
+            <img src="./Assets/hotospot-logo.svg" />
+          </div>
+          <p class="home-text px-4 align-items-center m-0">Your Episodes</p>
+        </div>
+        <ul class="fav-div">
+          <li>FAV</li>
+          <li>Daily Mix1</li>
+          <li>Discover Weekly</li>
+          <li>Malayalam</li>
+          <li>Dance / Electronix Mix</li>
+          <li>EDM / Popular</li>
+        </ul>
+        <div class="install d-flex align-items-center">
+          <img src="./Assets/install-logo.svg" />
+          <p>Install App</p>
+        </div>
+      </div>
+
+      <!-- hero section  -->
+      <div class="hero">
+        <nav class="nav-bar mt-3">
+          <div class="arrows">
+            <div class="left-arrow">
+              <img src="./Assets/left-arrow.svg" />
+            </div>
+            <div class="right-arrow">
+              <img src="./Assets/right-arrow.svg" />
+            </div>
+          </div>
+          <div class="profile">
+            <div class="profile-pic">
+              <img src="./Assets/profile.svg" />
+            </div>
+            <p>Bhola</p>
+            <img src="./Assets/dropdown.svg" />
+          </div>
+        </nav>
+        <section class="favs">
+          <h2>Good morning</h2>
+          <div class="cards-div">
+            <div class="inner-liked-cards">
+              <div
+                class="liked-div d-flex align-items-center justify-content-center"
+              >
+                <img src="./Assets/heart-logo.svg" />
+              </div>
+              <p>Liked Songs</p>
+            </div>
+            <div class="inner-liked-cards">
+              <div
+                class="liked-div-img d-flex align-items-center justify-content-center"
+              >
+                <img src="./Assets/neffex.svg" />
+              </div>
+              <p>Netflix Playlist</p>
+            </div>
+            <div class="inner-liked-cards">
+              <div
+                class="liked-div-img d-flex align-items-center justify-content-center"
+              >
+                <img src="./Assets/kda.svg" />
+              </div>
+              <p>K/DA</p>
+            </div>
+            <div class="inner-liked-cards">
+              <div
+                class="liked-div-img d-flex align-items-center justify-content-center"
+              >
+                <img src="./Assets/dance.svg" />
+              </div>
+              <p>Dance/Electronic Mix</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- cards  -->
+        <section class="shows mt-2">
+          <div class="text d-flex mb-3">
+            <h2>Shows you might like</h2>
+            <p>SEE ALL</p>
+          </div>
+          <div class="card-div">
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="215px"
+                height="150px"
+                src="./Assets/rect-1.svg"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weekly Motivatio...</h5>
+                <p class="card-text">Ben Ina Scott</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-2.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">MEDITATION SELF</h5>
+                <p class="card-text">Ibn Hussain Aleen</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-3.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Words beyond act...</h5>
+                <p class="card-text">Samuel Scott</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-4.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Alexa Show</h5>
+                <p class="card-text">Adriana Tom</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-4.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Alexa Show</h5>
+                <p class="card-text">Adriana Tom</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-4.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Alexa Show</h5>
+                <p class="card-text">Adriana Tom</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-4.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Alexa Show</h5>
+                <p class="card-text">Adriana Tom</p>
+              </div>
+            </div>
+            <div class="card" style="width: 251px; background-color: #181818">
+              <img
+                width="150px"
+                height="150px"
+                src="./Assets/rect-4.png"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Alexa Show</h5>
+                <p class="card-text">Adriana Tom</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- <footer class="footer">
+      <div>
+        
+        <ul><h3>Company</h3>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Jobs</li></a>
+          <a href="#"><li>For the Record</li></a>
+        </ul>
+      </div>
+    </footer> -->
+    <div class="music-player d-flex align-items-center justify-content-between">
+      <div class="left-music d-flex align-items-center">
+      <div class="music-image d-flex align-items-center mx-3">
+        <img src="./Assets/music-image.svg" />
+      </div>
+      <div class="music-text">
+        <h2>Dreaming On</h2>
+        <p>NEFFEX</p>
+      </div>
+      <img class="music-heart" src="./Assets/greenheart.svg" />
+    </div>
+    <div class="center-music">
+      <a href="#"><img src="./Assets/shuffle.svg"></a>
+      <a href="#"><img src="./Assets/previous.svg"></a>
+      <a href="#"><img src="./Assets/play.svg"></a>
+      <a href="#"><img src="./Assets/next.svg"></a>
+      <a href="#"><img src="./Assets/repeat.svg"></a>
+    </div>
+    <div class="right-music">
+      <a href="#"><img src="./Assets/mic.svg"></a>
+      <a href="#"><img src="./Assets/queue.svg"></a>
+      <a href="#"><img src="./Assets/laptop.svg"></a>
+      <a href="#"><img src="./Assets/lowsound.svg"></a>
+      <a href="#"><img src="./Assets/verticleline.png"></a>
+      <a href="#"><img src="./Assets/sound.svg"></a>
+    </div>
+    </div>
+
+    <!-- jscript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
